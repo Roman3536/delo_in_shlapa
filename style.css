@@ -1,0 +1,123 @@
+body {
+    background-color: #e8e8e8;
+}
+.bossBOX {
+    padding: 168px 0 137px 0;
+    max-width: 841px;
+    margin: 0 auto;
+}
+.top {
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+.textTOP {
+    opacity: 0.6;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #273d46;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0 0 15px 0;
+}
+.textMidle {
+    font-size: 36px;
+    line-height: 50px;
+    color: #273d46;
+    margin: 0 auto;
+}
+.content-img img{
+    width: 861px;
+    max-width: 100%;
+}
+.content-img {
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 0 85px 0;
+}
+.content-midle{
+    padding: 0 45px;
+}
+.midle-text {
+    opacity: 0.8;
+    font-size: 24px;
+    line-height: 40px;
+    color: #273d46;
+    margin: 0 0 48px 0;
+}
+.midle-text p{
+    margin: 0 0 40px 0;
+}
+.midle-text p:last-child{
+    margin: 0;
+}
+.bottom {
+}
+.textbottom {
+    margin: 0 0 59px 0;
+}
+.textbottom li{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    list-style-type: none;
+    background: url("https://cdn.discordapp.com/attachments/743469638729334795/944925330831974400/100x100_px1.png") left no-repeat;
+    background-size: 50px 50px;
+    padding: 0 0 0 50px;
+}
+.midle-text p:last-child{
+    margin: 0;
+}
+.textbottom li:nth-child(1){
+    text-shadow: 0 1px 0 rgba( 0, 0, 0, .3);
+    color: #273d46;
+}
+.textbottom li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+}
+.textbottom li:nth-child(3){
+    color: #273d46;
+    font-weight: 700;
+}
+.textbottom li:nth-child(4){
+      color: #273d46;
+      text-decoration: line-through;
+}
+.textbottom li:nth-child(4) span {
+    opacity: .3;
+}
+
+.botton {
+}
+.link_bottom {
+    display: inline-block;
+    line-height: 44px;
+    height: 44px;
+    padding: 0 20px;
+    border-radius: 25px;
+    background-color: #80b7b3;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 5px 1px rgba(0, 0, 0, .5);
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+} 
+.link_bottom span{
+    
+    padding: 0 40px 0 0;
+    background: url("https://cdn.discordapp.com/attachments/743469638729334795/944943166119878686/100x100_px2.png")right no-repeat;
+    background-size: 45px 50px;
+}
+.link_bottom:hover { 
+    background-color: #439690;
+
+}
+.link_bottom:active {
+    position: relative;
+    top: 3px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .5);
+}
